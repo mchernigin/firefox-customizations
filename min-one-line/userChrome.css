@@ -51,6 +51,7 @@
 
     @media (prefers-color-scheme: dark) { :root {
 
+        --mine:                              #181818;
         --window-colour:                     transparent;
         --secondary-colour:                  #181818A0;
         --inverted-colour:                   #FAFAFC;
@@ -80,6 +81,7 @@
 
     @media (prefers-color-scheme: light) { :root {
 
+        --mine:                              #EAEAEA;
         --window-colour:                     transparent;
         --secondary-colour:                  #EAEAEC;
         --inverted-colour:                   #1E2021;
@@ -448,7 +450,7 @@
 .urlbarView-row:hover
     > .urlbarView-row-inner,
 .urlbarView-row[selected]
-    > .urlbarView-row-inner { background: #181818 !important; }
+    > .urlbarView-row-inner { background: var(--mine) !important; }
 
 
 
