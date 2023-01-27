@@ -52,7 +52,7 @@
     @media (prefers-color-scheme: dark) { :root {
 
         --window-colour:                     transparent;
-        --secondary-colour:                  #191B1C;
+        --secondary-colour:                  #181818A0;
         --inverted-colour:                   #FAFAFC;
 
         /* Containter Tab Colours */
@@ -106,10 +106,6 @@
     }}
 
 
-
-body {
-    --new-tab-background-color: transparent !important;
-}
 
 :root {
 
@@ -227,7 +223,6 @@ body {
 
 
 
-window,
 #main-window,
 #toolbar-menubar,
 #TabsToolbar,
@@ -453,7 +448,7 @@ window,
 .urlbarView-row:hover
     > .urlbarView-row-inner,
 .urlbarView-row[selected]
-    > .urlbarView-row-inner { background: var(--uc-hover-colour) !important; }
+    > .urlbarView-row-inner { background: #181818 !important; }
 
 
 
