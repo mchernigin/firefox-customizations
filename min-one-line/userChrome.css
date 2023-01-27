@@ -444,7 +444,7 @@
 
 
 #urlbar[open]
-    > #urlbar-background { background: var(--uc-theme-colour) !important; }
+    > #urlbar-background { background: var(--mine) !important; }
 
 
 .urlbarView-row:hover
